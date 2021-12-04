@@ -1,7 +1,8 @@
-import { Typography } from '@mui/material';
+import { Paper, Typography } from '@mui/material';
 import ButtonSizes from './components/ButtonSizes';
 import IconButtonColors from './components/IconButtonColors';
 import IconButtons from './components/IconButtons';
+import SimplePaper from './components/SimplePaper';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Typography variant='h1' color='primary'>
         Hello World
       </Typography>
+      <SimplePaper />
     </div>
   );
 }
